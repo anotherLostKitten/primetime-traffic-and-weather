@@ -1,5 +1,5 @@
-#include <math.h>
-#include <stdlib.h>
+#                  include            <math.h>
+#                  include          <stdlib.h>
 int sieve(int n){unsigned s=n*log (n*log(n)-1)
 /24,c=1,d,e,i;char *b=calloc(s,1);for(n-=2;--n
 &&(i=c*c*3+(1&c?4*c+1:2*c))>>3<s;){for(e=(1&c?
